@@ -1,5 +1,14 @@
 ---
 changelog:
+  - version: 1.5.3-alpha (déploiement prévu à la fin du mois)
+
+    date: '2026-04-30T00:00:00.000Z'
+    entries:
+      ADDED:
+        - Ajout de la couleur des branches (terminus uniquement)
+        - Modification des préréglages des lignes 7 et 13
+        - Ajout de la fonction copier-coller pour les correspondances
+        - Ajout des connections de fin de ligne
   - version: 1.5.2-alpha
     date: '2025-11-09T00:00:00.000Z'
     entries:

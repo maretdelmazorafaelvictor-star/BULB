@@ -3,7 +3,19 @@ import { computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { findLineByValue, getLinesByMode } from '~/data/lines'
 import { useCustomLineIndices } from '~/stores/useCustomLineIndices'
+import { useClipboardStore } from '~/stores/useClipboard'
 
+const clipboard = useClipboardStore()
+const handleCopy = () => {
+  if (index.value) {
+    clipboard.copy(index.value)
+  }
+}
+const handlePaste = () => {
+  if (clipboard.interchanges) {
+    index.value = JSON.parse(JSON.stringify(clipboard.interchanges))
+  }
+}
 const { mode } = defineProps<{
   mode: Mode | null
 }>()
