@@ -6,18 +6,15 @@
 
 <style scoped lang="scss">
 .typography {
-  font-family: 'Parisine Std', sans-serif;
-  line-height: 1em;
+  font-family: 'Parisine Ptf', sans-serif;
+  line-height: .8em;
   text-wrap: nowrap;
   height: fit-content;
   width: fit-content;
+  text-box: trim-both cap alphabetic;
 
   .debug & {
     outline: 1px solid orange;
-  }
-
-  div {
-    margin-top: calc(-3em / 16);
   }
 }
 </style>
