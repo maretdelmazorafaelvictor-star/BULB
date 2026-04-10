@@ -7,6 +7,7 @@ declare global {
     | 'BRT'
     | 'BUS'
     | 'CABLE'
+    | 'FUNICULAR'
     | 'METRO'
     | 'NOCTILIEN'
     | 'RER'
@@ -15,8 +16,7 @@ declare global {
     | 'TRAM'
     | 'VELO'
   type Service =
-    'FUNICULAR'
-    | 'MAIN_STATION'
+    'MAIN_STATION'
     | 'BULLET_TRAIN'
     | 'SUBURBAN_TRAIN'
     | 'TGV'
@@ -58,7 +58,7 @@ declare global {
   type RerLine = 'A' | 'B' | 'C' | 'D' | 'E' | string
   type TrainLine = 'H' | 'J' | 'K' | 'L' | 'N' | 'P' | 'R' | 'U' | 'V' | string
   type TramLine = '1' | '2' | '3a' | '3b' | '4' | '5' | '6' | '7' | '8' | '11' | '12' | '13' | '14' | string
-
+  type FunicularLine = 'Montmartre' | string
   type IndexShape = 'CIRCLE' | 'ROUNDED_SQUARE' | 'LINES' | 'RECTANGLE' | 'CUT_RECTANGLE'
 
   interface ColorChoice {

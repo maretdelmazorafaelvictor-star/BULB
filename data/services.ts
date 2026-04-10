@@ -6,7 +6,6 @@ export const SERVICES: ServiceChoice[] = [
   { value: 'TGV', label: 'data.services.tgv' },
   { value: 'TER', label: 'data.services.ter' },
   { value: 'LONG_DISTANCE_BUS', label: 'data.services.long_distance_bus' },
-  { value: 'FUNICULAR', label: 'data.services.funicular' },
   { value: 'ROISSY_BUS', label: '\u200B' },
   { value: 'ORLY_BUS', label: '\u200B' },
   { value: 'CDGVAL', label: 'data.services.cdgval' },

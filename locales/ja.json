@@ -76,7 +76,8 @@
       "noctilien": "Noctilien",
       "rer": "RER",
       "tram": "路面電車",
-      "transilien": "Transilien"
+      "transilien": "Transilien",
+      "funicular":"ケーブルカー"
     },
     "services": {
       "airport": "空港",

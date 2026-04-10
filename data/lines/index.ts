@@ -4,6 +4,7 @@ import { METRO_LINES } from './metro'
 import { RER_LINES } from './rer'
 import { TRAM_LINES } from './tram'
 import { TRANSILIEN_LINES } from './transilien'
+import { FUNICULAR_LINES } from './funicular'
 
 const BUILTIN_LINES: IndexChoice<BuiltinLineIndex>[] = Array.of(
   ...BUS_LINES,
@@ -12,6 +13,7 @@ const BUILTIN_LINES: IndexChoice<BuiltinLineIndex>[] = Array.of(
   ...RER_LINES,
   ...TRAM_LINES,
   ...TRANSILIEN_LINES,
+  ...FUNICULAR_LINES,
 )
 
 export {
@@ -22,6 +24,7 @@ export {
   RER_LINES,
   TRAM_LINES,
   TRANSILIEN_LINES,
+  FUNICULAR_LINES,
 }
 
 export function getLinesByMode(mode: Mode | null): IndexChoice<BuiltinLineIndex>[] {

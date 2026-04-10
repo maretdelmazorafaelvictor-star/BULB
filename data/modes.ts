@@ -3,6 +3,7 @@ export const MODES: ModeChoice[] = [
   { value: 'BRT', label: 'data.mode.brt' },
   { value: 'BUS', label: 'data.mode.bus' },
   { value: 'CABLE', label: 'data.mode.cable' },
+  { value: 'FUNICULAR', label: 'data.mode.funicular' },
   { value: 'METRO', label: 'data.mode.metro' },
   { value: 'NOCTILIEN', label: 'data.mode.noctilien' },
   { value: 'RER', label: 'data.mode.rer' },
@@ -26,6 +27,7 @@ export function modeToShape(mode: Mode): IndexShape {
     case 'BOAT':
     case 'BRT':
     case 'CABLE':
+    case 'FUNICULAR':
     case 'VELO':
     case 'TRAM':
       return 'LINES'

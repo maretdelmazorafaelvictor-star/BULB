@@ -76,7 +76,8 @@
       "noctilien": "Noctilien",
       "rer": "RER",
       "tram": "Straßenbahn",
-      "transilien": "Transilien"
+      "transilien": "Transilien",
+      "funicular":"Standseilbahn"
     },
     "services": {
       "airport": "Flughafen",
